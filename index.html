@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the-time-zone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+    
+            justify-content:right;
+            padding-top: 90px;
+            /* align-items: center; */
+            height: 100px;
+            width: 80%;
+            margin: left;
+            background-size: cover; 
+
+        }
+        .login-container {
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            background: transparent;
+        }
+        .login-container h2 {
+            margin-bottom: 20spx;
+            color: white;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .login-container input[type="submit"]:hover {
+            background-color: blue;
+        }
+        a:hover {
+            color: red;
+        }
+      
+    </style>
+</head>
+<body background="image/img1.jpg">
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="men.html" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <br>
+            <input type="password" name="password" placeholder="Password" required>
+            <br>
+            <input type="submit" value="Login">
+            <br>
+           <p><a href="register.html" style="color: white;text-decoration: none;">don't have an account?</a></p>
+        </form>
+    </div>
+</body>
+</html>
